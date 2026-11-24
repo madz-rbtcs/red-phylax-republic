@@ -1,0 +1,250 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Batangas State University, The National Engineering University"
+    />
+    <title>About This Website | Batangas State University</title>
+
+    <!-- All page styling is embedded below, as requested. -->
+    <link rel="icon" href="assets/images/logo.png" />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+  </head>
+  <body>
+    <!-- =====================================================
+       SITE HEADER
+       This same header is repeated on every page.
+       ===================================================== -->
+    <header class="site-header">
+      <a class="brand" href="index.html" aria-label="Batangas State University home">
+        <img src="assets/images/logo.png" alt="Batangas State University seal" />
+        <p>Leading Innovations<br />Transforming Lives<br />Building the Nation</p>
+      </a>
+
+      <!-- CSS-only mobile menu control. The checkbox is visually hidden. -->
+      <input class="nav-toggle sr-only" type="checkbox" id="nav-toggle" />
+      <label class="menu-button" for="nav-toggle" aria-label="Open or close navigation">
+        <span></span><span></span><span></span>
+      </label>
+
+      <nav class="main-nav" aria-label="Main navigation">
+        <a class="nav-link active" href="index.html">Home</a>
+
+        <!-- About Us is a page link. The arrow opens its related-page menu. -->
+        <div class="about-nav">
+          <a class="nav-link" href="about.html">About Us</a>
+          <details>
+            <summary aria-label="Open About Us submenu"></summary>
+            <div class="dropdown">
+              <a href="student-life.html">Student Life</a>
+              <a href="academics.html">Academics</a>
+              <a href="faculty-staff.html">Faculty &amp; Staff</a>
+            </div>
+          </details>
+        </div>
+
+        <a class="nav-link" href="admissions.html">Admissions</a>
+        <a class="nav-link" href="news.html">News</a>
+        <a class="nav-link" href="contact.html">Contact</a>
+        <!-- CSS-only theme switch. It changes the current page without JavaScript. -->
+        <label class="theme-switch" title="Switch between light and dark mode">
+          <input class="theme-input" type="checkbox" aria-label="Toggle dark mode" />
+          <span class="theme-text" aria-hidden="true"></span>
+          <span class="theme-track" aria-hidden="true"></span>
+        </label>
+      </nav>
+    </header>
+
+    <!-- HOME PAGE HERO -->
+    <main>
+      <!-- PAGE INTRODUCTION -->
+      <section class="page-hero">
+        <div class="page-hero-copy">
+          <p class="eyebrow">Student Project</p>
+          <h1>About This Website</h1>
+          <p>
+            An unofficial educational website created by Red Phylax Republic as a final project for
+            Introduction to Computing.
+          </p>
+        </div>
+        <div class="page-mark" aria-hidden="true">RPR</div>
+      </section>
+
+      <!-- PROJECT OVERVIEW -->
+      <section class="content-band">
+        <div class="split top">
+          <div>
+            <p class="eyebrow">Project Credit</p>
+            <h2 class="section-title">Created by Red Phylax Republic</h2>
+            <figure class="rpr-logo">
+              <img
+                src="assets/images/red-phylax-republic-logo.png"
+                alt="Red Phylax Republic logo"
+              />
+              <figcaption>Red Phylax Republic</figcaption>
+            </figure>
+          </div>
+          <div class="prose">
+            <p>
+              This website was designed and developed by <strong>Red Phylax Republic</strong> as our
+              final project in <strong>Introduction to Computing</strong>. It demonstrates the use
+              of semantic HTML and responsive CSS to organize and present information about Batangas
+              State University.
+            </p>
+            <p>
+              The project is educational and non-commercial. It is not an official Batangas State
+              University website and is not affiliated with, endorsed by, or maintained by the
+              University.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- PROJECT PRINCIPLES -->
+      <section class="content-band tinted">
+        <p class="eyebrow">Important Information</p>
+        <h2 class="section-title">About the Project</h2>
+        <ol class="recognition-grid">
+          <li>
+            <h3>Educational Purpose</h3>
+            <p>
+              The website was produced to apply introductory computing concepts, web page structure,
+              responsive design, and accessible navigation in a complete class project.
+            </p>
+          </li>
+          <li>
+            <h3>Institutional Materials</h3>
+            <p>
+              The BatStateU name, BSU Seal, Red Spartans mark, CORE Values graphic, and other
+              institutional materials belong to Batangas State University or their respective rights
+              holders. They are included solely for educational, non-commercial presentation.
+            </p>
+          </li>
+          <li>
+            <h3>Information Notice</h3>
+            <p>
+              Content was compiled from supplied project references and publicly available
+              university information. Details may change, so official policies, requirements, dates,
+              and contact information should always be confirmed through BatStateU&rsquo;s official
+              channels.
+            </p>
+          </li>
+        </ol>
+      </section>
+
+      <!-- OFFICIAL WEBSITE CALL TO ACTION -->
+      <section class="about-cta">
+        <div>
+          <p class="eyebrow">Looking for Official Information?</p>
+          <h2>Visit Batangas State University&rsquo;s official website.</h2>
+        </div>
+        <a
+          class="outline-button"
+          href="https://batstateu.edu.ph/"
+          target="_blank"
+          rel="noopener noreferrer"
+          >Official Website &rarr;</a
+        >
+      </section>
+    </main>
+
+    <!-- =====================================================
+       UNIVERSITY FOOTER
+       Social links below point to university-wide official accounts.
+       ===================================================== -->
+    <footer class="site-footer">
+      <div class="footer-main">
+        <a class="footer-brand" href="index.html" aria-label="Batangas State University home">
+          <img
+            class="footer-mark"
+            src="assets/images/red-spartans.png"
+            alt="BatStateU Red Spartans mark"
+          />
+          <span class="footer-brand-copy">
+            <span class="footer-kicker">The National Engineering University</span>
+            <strong>Batangas State University</strong>
+            <span>Leading Innovations. Transforming Lives. Building the Nation.</span>
+          </span>
+        </a>
+
+        <div class="footer-connect">
+          <h2>Connect with BatStateU</h2>
+          <p>
+            Rizal Avenue Extension, Batangas City, Philippines<br />
+            <a href="contact.html">View the university contact directory &rarr;</a>
+          </p>
+          <!-- Official university-wide social media accounts. -->
+          <nav class="social-links" aria-label="Official BatStateU social media">
+            <a
+              class="social-link"
+              href="https://www.facebook.com/BatStateUTheNEU"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="BatStateU on Facebook"
+            >
+              <span class="social-icon" aria-hidden="true">f</span><span>Facebook</span>
+            </a>
+            <a
+              class="social-link"
+              href="https://www.instagram.com/batstateutheneu/"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="BatStateU on Instagram"
+            >
+              <span class="social-icon" aria-hidden="true">IG</span><span>Instagram</span>
+            </a>
+            <a
+              class="social-link"
+              href="https://www.youtube.com/@BatStateUTheNEU"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="BatStateU on YouTube"
+            >
+              <span class="social-icon" aria-hidden="true">YT</span><span>YouTube</span>
+            </a>
+            <a
+              class="social-link"
+              href="https://www.linkedin.com/school/batangas-state-university/"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="BatStateU on LinkedIn"
+            >
+              <span class="social-icon" aria-hidden="true">in</span><span>LinkedIn</span>
+            </a>
+            <a
+              class="social-link"
+              href="https://x.com/BatStateUTheNEU"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="BatStateU on X"
+            >
+              <span class="social-icon" aria-hidden="true">X</span><span>X</span>
+            </a>
+          </nav>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div class="footer-legal">
+          <p>
+            The BatStateU name, BSU Seal, Red Spartans mark, CORE Values graphic, and other
+            institutional materials belong to Batangas State University or their respective rights
+            holders. They are used here solely for educational, non-commercial purposes.
+          </p>
+          <p>
+            This unofficial student project is not affiliated with, endorsed by, or maintained by
+            Batangas State University.
+          </p>
+        </div>
+        <nav class="footer-meta-links" aria-label="Website information">
+          <a href="about-this-website.html">About This Website</a>
+          <a href="https://batstateu.edu.ph/" target="_blank" rel="noopener noreferrer"
+            >Official University Website</a
+          >
+        </nav>
+      </div>
+    </footer>
+  </body>
+</html>

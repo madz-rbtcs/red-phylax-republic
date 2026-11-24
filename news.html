@@ -1,0 +1,349 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Batangas State University, The National Engineering University"
+    />
+    <title>News | Batangas State University</title>
+
+    <!-- All page styling is embedded below, as requested. -->
+    <link rel="icon" href="assets/images/logo.png" />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+  </head>
+  <body>
+    <!-- =====================================================
+       SITE HEADER
+       This same header is repeated on every page.
+       ===================================================== -->
+    <header class="site-header">
+      <a class="brand" href="index.html" aria-label="Batangas State University home">
+        <img src="assets/images/logo.png" alt="Batangas State University seal" />
+        <p>Leading Innovations<br />Transforming Lives<br />Building the Nation</p>
+      </a>
+
+      <!-- CSS-only mobile menu control. The checkbox is visually hidden. -->
+      <input class="nav-toggle sr-only" type="checkbox" id="nav-toggle" />
+      <label class="menu-button" for="nav-toggle" aria-label="Open or close navigation">
+        <span></span><span></span><span></span>
+      </label>
+
+      <nav class="main-nav" aria-label="Main navigation">
+        <a class="nav-link" href="index.html">Home</a>
+
+        <!-- About Us is a page link. The arrow opens its related-page menu. -->
+        <div class="about-nav">
+          <a class="nav-link" href="about.html">About Us</a>
+          <details>
+            <summary aria-label="Open About Us submenu"></summary>
+            <div class="dropdown">
+              <a href="student-life.html">Student Life</a>
+              <a href="academics.html">Academics</a>
+              <a href="faculty-staff.html">Faculty &amp; Staff</a>
+            </div>
+          </details>
+        </div>
+
+        <a class="nav-link" href="admissions.html">Admissions</a>
+        <a class="nav-link active" href="news.html">News</a>
+        <a class="nav-link" href="contact.html">Contact</a>
+        <!-- CSS-only theme switch. It changes the current page without JavaScript. -->
+        <label class="theme-switch" title="Switch between light and dark mode">
+          <input class="theme-input" type="checkbox" aria-label="Toggle dark mode" />
+          <span class="theme-text" aria-hidden="true"></span>
+          <span class="theme-track" aria-hidden="true"></span>
+        </label>
+      </nav>
+    </header>
+
+    <main>
+      <!-- PAGE INTRODUCTION: change the page title and summary here. -->
+      <section class="page-hero">
+        <div class="page-hero-copy">
+          <p class="eyebrow">University Updates</p>
+          <h1>News &amp; Events</h1>
+          <p>
+            Conferences, forums, trainings, and milestones from across Batangas State University.
+          </p>
+        </div>
+        <div class="page-mark" aria-hidden="true">BSU</div>
+      </section>
+
+      <!-- NEWS CARDS: the first card is featured. Copy an <article> to add news. -->
+      <section class="content-band">
+        <p class="eyebrow">Latest from BatStateU</p>
+        <h2 class="section-title">News &amp; Events</h2>
+        <div class="event-grid">
+          <article class="event-card featured">
+            <div class="event-meta">
+              <span class="badge">Conference</span><span class="badge">All Campuses</span>
+            </div>
+            <time>September 28&ndash;30, 2026</time>
+            <h3>BatStateU to host ICSRI 2026</h3>
+            <p>
+              BatStateU will host the International Conference on Sustainability through Research
+              and Innovation (ICSRI) 2026, focused on biodiversity conservation and sustainability
+              collaboration.
+            </p>
+            <p class="venue">Pablo Borbon Campus, Batangas City</p>
+          </article>
+          <article class="event-card">
+            <div class="event-meta"><span class="badge">Seminar Series</span></div>
+            <time>May 2026</time>
+            <h3>Usapang Sustainability Series 2026</h3>
+            <p>
+              A four-part discussion forum assessing BatStateU&rsquo;s research and innovation
+              landscape for sustainable development. The first session was held on May 12, 2026.
+            </p>
+            <p class="venue">Center for Sustainable Development and OVPRDES</p>
+          </article>
+          <article class="event-card">
+            <div class="event-meta"><span class="badge">Training</span></div>
+            <time>May 21, 2026</time>
+            <h3>Phase II GHG Inventory and CCET Training</h3>
+            <p>A sustainability training held at the Pablo Borbon Campus.</p>
+            <p class="venue">Pablo Borbon Campus</p>
+          </article>
+          <article class="event-card">
+            <div class="event-meta"><span class="badge">Workshop</span></div>
+            <time>June 17, 2025</time>
+            <h3>Capacity Building and Sustainability Benchmarking Workshop</h3>
+            <p>
+              Brought together Sustainable Development Office heads and coordinators from across the
+              university system to strengthen project development, implementation, and
+              sustainability reporting.
+            </p>
+            <p class="venue">Center for Sustainable Development</p>
+          </article>
+          <article class="event-card">
+            <div class="event-meta"><span class="badge">Summit</span></div>
+            <time>March 19, 2025</time>
+            <h3>3rd Annual Sustainability Summit</h3>
+            <p>
+              BatStateU&rsquo;s annual summit on sustainability initiatives across the university.
+            </p>
+            <p class="venue">Pablo Borbon Campus</p>
+          </article>
+          <article class="event-card">
+            <div class="event-meta"><span class="badge">Research</span></div>
+            <time>December 2, 2023</time>
+            <h3>CAScade &mdash; Advancing Graduate School Research towards Sustainability</h3>
+            <p>
+              A College of Arts and Sciences event highlighting graduate research on sustainability.
+            </p>
+            <p class="venue">Student Services Center Building II, Pablo Borbon Campus</p>
+          </article>
+        </div>
+      </section>
+
+      <!-- EVENT CALENDAR -->
+      <section class="content-band tinted">
+        <p class="eyebrow">Chronological List</p>
+        <h2 class="section-title">Event Calendar</h2>
+        <!-- Table: copy a <tr> row to add another entry. Keep data-label text matching the header. -->
+        <div class="table-wrap">
+          <table class="data-table">
+            <thead>
+              <tr>
+                <th scope="col">Date</th>
+                <th scope="col">Campus</th>
+                <th scope="col">Event</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td data-label="Date">February 13&ndash;14, 2023</td>
+                <td data-label="Campus">Alangilan</td>
+                <td data-label="Event">Inter-Department SDG Booth Competition</td>
+              </tr>
+              <tr>
+                <td data-label="Date">March 9, 2023</td>
+                <td data-label="Campus">Alangilan</td>
+                <td data-label="Event">
+                  Sustainable Development Forum and Exhibit, World Engineering Day 2023
+                </td>
+              </tr>
+              <tr>
+                <td data-label="Date">March 28, 2023</td>
+                <td data-label="Campus">Pablo Borbon</td>
+                <td data-label="Event">Women&rsquo;s Fair</td>
+              </tr>
+              <tr>
+                <td data-label="Date">December 2, 2023</td>
+                <td data-label="Campus">Pablo Borbon</td>
+                <td data-label="Event">CAScade graduate research event</td>
+              </tr>
+              <tr>
+                <td data-label="Date">September 2024</td>
+                <td data-label="Campus">Lipa and other campuses</td>
+                <td data-label="Event">One BatStateU Clean-Up Drive</td>
+              </tr>
+              <tr>
+                <td data-label="Date">March 19, 2025</td>
+                <td data-label="Campus">Pablo Borbon</td>
+                <td data-label="Event">3rd Annual Sustainability Summit</td>
+              </tr>
+              <tr>
+                <td data-label="Date">March 2025</td>
+                <td data-label="Campus">Alangilan</td>
+                <td data-label="Event">Team ECO BEADa, World Engineering Day Hackathon 2025</td>
+              </tr>
+              <tr>
+                <td data-label="Date">June 17, 2025</td>
+                <td data-label="Campus">All Campuses</td>
+                <td data-label="Event">
+                  Capacity Building and Sustainability Benchmarking Workshop
+                </td>
+              </tr>
+              <tr>
+                <td data-label="Date">May 12, 2026</td>
+                <td data-label="Campus">All Campuses</td>
+                <td data-label="Event">Usapang Sustainability Series 2026, first session</td>
+              </tr>
+              <tr>
+                <td data-label="Date">May 21, 2026</td>
+                <td data-label="Campus">Pablo Borbon</td>
+                <td data-label="Event">Phase II GHG Inventory and CCET Training</td>
+              </tr>
+              <tr>
+                <td data-label="Date">September 28&ndash;30, 2026</td>
+                <td data-label="Campus">Pablo Borbon</td>
+                <td data-label="Event">ICSRI 2026</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <!-- OFFICIAL LINKS: these open the official BatStateU websites. -->
+      <section class="content-band">
+        <p class="eyebrow">Stay Updated</p>
+        <h2 class="section-title">Official Sources</h2>
+        <ul class="link-list">
+          <li>
+            <a href="https://batstateu.edu.ph/">Main University Website <span>&rarr;</span></a>
+          </li>
+          <li>
+            <a href="https://batstateu.edu.ph/campuses/">Campus Directory <span>&rarr;</span></a>
+          </li>
+          <li>
+            <a href="https://sustainability.batstate-u.edu.ph/category/events/"
+              >Sustainability Events <span>&rarr;</span></a
+            >
+          </li>
+          <li>
+            <a href="https://sustainability.batstate-u.edu.ph/category/sustainable-innovation/"
+              >Student Achievements <span>&rarr;</span></a
+            >
+          </li>
+          <li>
+            <a href="https://global.batstateu.edu.ph/">BatStateU Global <span>&rarr;</span></a>
+          </li>
+          <li>
+            <a href="https://dione.batstate-u.edu.ph/student/"
+              >Student Portal <span>&rarr;</span></a
+            >
+          </li>
+        </ul>
+      </section>
+    </main>
+
+    <!-- =====================================================
+       UNIVERSITY FOOTER
+       Social links below point to university-wide official accounts.
+       ===================================================== -->
+    <footer class="site-footer">
+      <div class="footer-main">
+        <a class="footer-brand" href="index.html" aria-label="Batangas State University home">
+          <img
+            class="footer-mark"
+            src="assets/images/red-spartans.png"
+            alt="BatStateU Red Spartans mark"
+          />
+          <span class="footer-brand-copy">
+            <span class="footer-kicker">The National Engineering University</span>
+            <strong>Batangas State University</strong>
+            <span>Leading Innovations. Transforming Lives. Building the Nation.</span>
+          </span>
+        </a>
+
+        <div class="footer-connect">
+          <h2>Connect with BatStateU</h2>
+          <p>
+            Rizal Avenue Extension, Batangas City, Philippines<br />
+            <a href="contact.html">View the university contact directory &rarr;</a>
+          </p>
+          <!-- Official university-wide social media accounts. -->
+          <nav class="social-links" aria-label="Official BatStateU social media">
+            <a
+              class="social-link"
+              href="https://www.facebook.com/BatStateUTheNEU"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="BatStateU on Facebook"
+            >
+              <span class="social-icon" aria-hidden="true">f</span><span>Facebook</span>
+            </a>
+            <a
+              class="social-link"
+              href="https://www.instagram.com/batstateutheneu/"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="BatStateU on Instagram"
+            >
+              <span class="social-icon" aria-hidden="true">IG</span><span>Instagram</span>
+            </a>
+            <a
+              class="social-link"
+              href="https://www.youtube.com/@BatStateUTheNEU"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="BatStateU on YouTube"
+            >
+              <span class="social-icon" aria-hidden="true">YT</span><span>YouTube</span>
+            </a>
+            <a
+              class="social-link"
+              href="https://www.linkedin.com/school/batangas-state-university/"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="BatStateU on LinkedIn"
+            >
+              <span class="social-icon" aria-hidden="true">in</span><span>LinkedIn</span>
+            </a>
+            <a
+              class="social-link"
+              href="https://x.com/BatStateUTheNEU"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="BatStateU on X"
+            >
+              <span class="social-icon" aria-hidden="true">X</span><span>X</span>
+            </a>
+          </nav>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div class="footer-legal">
+          <p>
+            The BatStateU name, BSU Seal, Red Spartans mark, CORE Values graphic, and other
+            institutional materials belong to Batangas State University or their respective rights
+            holders. They are used here solely for educational, non-commercial purposes.
+          </p>
+          <p>
+            This unofficial student project is not affiliated with, endorsed by, or maintained by
+            Batangas State University.
+          </p>
+        </div>
+        <nav class="footer-meta-links" aria-label="Website information">
+          <a href="about-this-website.html">About This Website</a>
+          <a href="https://batstateu.edu.ph/" target="_blank" rel="noopener noreferrer"
+            >Official University Website</a
+          >
+        </nav>
+      </div>
+    </footer>
+  </body>
+</html>

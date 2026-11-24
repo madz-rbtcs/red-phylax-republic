@@ -1,0 +1,339 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Batangas State University, The National Engineering University"
+    />
+    <title>About Us | Batangas State University</title>
+
+    <!-- All page styling is embedded below, as requested. -->
+    <link rel="icon" href="assets/images/logo.png" />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+  </head>
+  <body>
+    <!-- =====================================================
+       SITE HEADER
+       This same header is repeated on every page.
+       ===================================================== -->
+    <header class="site-header">
+      <a class="brand" href="index.html" aria-label="Batangas State University home">
+        <img src="assets/images/logo.png" alt="Batangas State University seal" />
+        <p>Leading Innovations<br />Transforming Lives<br />Building the Nation</p>
+      </a>
+
+      <!-- CSS-only mobile menu control. The checkbox is visually hidden. -->
+      <input class="nav-toggle sr-only" type="checkbox" id="nav-toggle" />
+      <label class="menu-button" for="nav-toggle" aria-label="Open or close navigation">
+        <span></span><span></span><span></span>
+      </label>
+
+      <nav class="main-nav" aria-label="Main navigation">
+        <a class="nav-link" href="index.html">Home</a>
+
+        <!-- About Us is a page link. The arrow opens its related-page menu. -->
+        <div class="about-nav">
+          <a class="nav-link active" href="about.html">About Us</a>
+          <details>
+            <summary aria-label="Open About Us submenu"></summary>
+            <div class="dropdown">
+              <a href="student-life.html">Student Life</a>
+              <a href="academics.html">Academics</a>
+              <a href="faculty-staff.html">Faculty &amp; Staff</a>
+            </div>
+          </details>
+        </div>
+
+        <a class="nav-link" href="admissions.html">Admissions</a>
+        <a class="nav-link" href="news.html">News</a>
+        <a class="nav-link" href="contact.html">Contact</a>
+        <!-- CSS-only theme switch. It changes the current page without JavaScript. -->
+        <label class="theme-switch" title="Switch between light and dark mode">
+          <input class="theme-input" type="checkbox" aria-label="Toggle dark mode" />
+          <span class="theme-text" aria-hidden="true"></span>
+          <span class="theme-track" aria-hidden="true"></span>
+        </label>
+      </nav>
+    </header>
+
+    <main>
+      <!-- PAGE INTRODUCTION: change the page title and summary here. -->
+      <section class="page-hero">
+        <div class="page-hero-copy">
+          <p class="eyebrow">Get to Know BatStateU</p>
+          <h1>About the Batangas State University</h1>
+          <p>Leading Innovations, Transforming Lives, Building the Nation.</p>
+        </div>
+        <div class="page-mark" aria-hidden="true">1903</div>
+      </section>
+
+      <!-- HISTORY: text on the left, archival photo on the right. -->
+      <section class="content-band">
+        <div class="split">
+          <div>
+            <p class="eyebrow">Our Story</p>
+            <h2 class="section-title">History</h2>
+            <div class="prose">
+              <p>
+                Batangas State University (BatStateU) traces its beginnings to 1903, when it was
+                established as a Manual Training School for young men. Over the years, it underwent
+                several transformations, becoming the Pablo Borbon Memorial Institute of Technology
+                in 1968 and eventually a state university in 2001 through Republic Act No. 9045.
+              </p>
+              <p>
+                With its continuous growth and commitment to quality education, BatStateU achieved
+                another milestone in 2022 when Republic Act No. 11694 officially declared it as The
+                National Engineering University of the Philippines. Today, it continues to promote
+                excellence in engineering, science, technology, research, and innovation.
+              </p>
+            </div>
+          </div>
+          <figure class="photo-frame">
+            <div class="frame">
+              <img
+                src="assets/images/history-1903.jpg"
+                alt="Archival class photo from the Manual Training School in 1903"
+              />
+            </div>
+            <figcaption>Manual Training School, 1903</figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <!-- TIMELINE: add another <div> to include a new milestone. -->
+      <section class="history-section">
+        <div class="history-copy">
+          <p class="eyebrow">Milestones</p>
+          <h2>More than a century of growth</h2>
+          <p>
+            From a manual training school to The National Engineering University, each chapter
+            reflects BatStateU&rsquo;s commitment to quality education.
+          </p>
+          <a class="text-link" href="academics.html">Explore our academics &rarr;</a>
+        </div>
+        <div class="timeline" aria-label="University history highlights">
+          <div>
+            <strong>1903</strong>
+            <p>Established as a Manual Training School for young men.</p>
+          </div>
+          <div>
+            <strong>1968</strong>
+            <p>Became the Pablo Borbon Memorial Institute of Technology.</p>
+          </div>
+          <div>
+            <strong>2001</strong>
+            <p>Converted into a state university through Republic Act No. 9045.</p>
+          </div>
+          <div>
+            <strong>2022</strong>
+            <p>Declared The National Engineering University through Republic Act No. 11694.</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- VISION AND MISSION -->
+      <section class="purpose-section about-purpose-section">
+        <article class="purpose-card red">
+          <span aria-hidden="true">01</span>
+          <p class="eyebrow">University Vision</p>
+          <h2>
+            A premier national university that develops leaders in the global knowledge economy.
+          </h2>
+          <p>The vision that guides every campus, college, and program of BatStateU.</p>
+        </article>
+        <article class="purpose-card">
+          <span aria-hidden="true">02</span>
+          <p class="eyebrow">University Mission</p>
+          <h2>Producing leaders for the nation and the world</h2>
+          <p>
+            A university committed to producing leaders by providing a 21st century learning
+            environment through innovations in education, multidisciplinary research, and community
+            and industry partnerships in order to nurture the spirit of nationhood, propel the
+            national economy, and engage the world for sustainable development.
+          </p>
+        </article>
+      </section>
+
+      <!-- CORE VALUES: infographic and the six official university values. -->
+      <section class="content-band tinted core-values-section">
+        <div class="core-values-layout">
+          <div class="core-values-copy">
+            <p class="eyebrow">What Guides Us</p>
+            <h2 class="section-title">University Core Values</h2>
+            <p class="section-lead">
+              Six values shape how the BatStateU community learns, leads, serves, and contributes to
+              national development.
+            </p>
+            <ul class="value-list">
+              <li data-letter="P">Patriotism</li>
+              <li data-letter="S">Service</li>
+              <li data-letter="I">Integrity</li>
+              <li data-letter="R">Resilience</li>
+              <li data-letter="E">Excellence</li>
+              <li data-letter="F">Faith</li>
+            </ul>
+          </div>
+          <figure class="core-values-graphic">
+            <img
+              src="assets/images/core-values.png"
+              alt="BatStateU core values diagram surrounding the university seal"
+            />
+            <figcaption>
+              Patriotism &bull; Service &bull; Integrity &bull; Resilience &bull; Excellence &bull;
+              Faith
+            </figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <!-- ACCREDITATION: each <li> is one numbered card. -->
+      <section class="content-band">
+        <p class="eyebrow">Quality and Recognition</p>
+        <h2 class="section-title">Accreditation</h2>
+        <ol class="recognition-grid">
+          <li>
+            <h3>ABET Accreditation</h3>
+            <p>
+              Several engineering programs, including Civil, Electrical, Mechanical, Electronics,
+              and Chemical Engineering, are accredited by the Accreditation Board for Engineering
+              and Technology (ABET).
+            </p>
+          </li>
+          <li>
+            <h3>ABET Computing Accreditation</h3>
+            <p>
+              The BS Computer Science and BS Information Technology programs at BatStateU Alangilan
+              are accredited by ABET&rsquo;s Computing Accreditation Commission.
+            </p>
+          </li>
+          <li>
+            <h3>ISO 9001:2015 Certification</h3>
+            <p>
+              The university received international quality management certification from T&Uuml;V
+              Rheinland Philippines, Inc.
+            </p>
+          </li>
+          <li>
+            <h3>CHED Center of Excellence</h3>
+            <p>
+              Its Electronics Engineering program is recognized as a National Center of Excellence
+              by the Commission on Higher Education (CHED).
+            </p>
+          </li>
+          <li>
+            <h3>CHED Centers of Development</h3>
+            <p>
+              Electrical Engineering, Mechanical Engineering, Development Communication, and Teacher
+              Education are recognized as National Centers of Development.
+            </p>
+          </li>
+          <li>
+            <h3>International Rankings</h3>
+            <p>
+              Recognized in the 2025 World University Rankings for Innovation (WURI), 2026 THE
+              Sustainability Impact Ratings, and 2025 UI GreenMetric World University Rankings.
+            </p>
+          </li>
+        </ol>
+      </section>
+    </main>
+
+    <!-- =====================================================
+       UNIVERSITY FOOTER
+       Social links below point to university-wide official accounts.
+       ===================================================== -->
+    <footer class="site-footer">
+      <div class="footer-main">
+        <a class="footer-brand" href="index.html" aria-label="Batangas State University home">
+          <img
+            class="footer-mark"
+            src="assets/images/red-spartans.png"
+            alt="BatStateU Red Spartans mark"
+          />
+          <span class="footer-brand-copy">
+            <span class="footer-kicker">The National Engineering University</span>
+            <strong>Batangas State University</strong>
+            <span>Leading Innovations. Transforming Lives. Building the Nation.</span>
+          </span>
+        </a>
+
+        <div class="footer-connect">
+          <h2>Connect with BatStateU</h2>
+          <p>
+            Rizal Avenue Extension, Batangas City, Philippines<br />
+            <a href="contact.html">View the university contact directory &rarr;</a>
+          </p>
+          <!-- Official university-wide social media accounts. -->
+          <nav class="social-links" aria-label="Official BatStateU social media">
+            <a
+              class="social-link"
+              href="https://www.facebook.com/BatStateUTheNEU"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="BatStateU on Facebook"
+            >
+              <span class="social-icon" aria-hidden="true">f</span><span>Facebook</span>
+            </a>
+            <a
+              class="social-link"
+              href="https://www.instagram.com/batstateutheneu/"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="BatStateU on Instagram"
+            >
+              <span class="social-icon" aria-hidden="true">IG</span><span>Instagram</span>
+            </a>
+            <a
+              class="social-link"
+              href="https://www.youtube.com/@BatStateUTheNEU"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="BatStateU on YouTube"
+            >
+              <span class="social-icon" aria-hidden="true">YT</span><span>YouTube</span>
+            </a>
+            <a
+              class="social-link"
+              href="https://www.linkedin.com/school/batangas-state-university/"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="BatStateU on LinkedIn"
+            >
+              <span class="social-icon" aria-hidden="true">in</span><span>LinkedIn</span>
+            </a>
+            <a
+              class="social-link"
+              href="https://x.com/BatStateUTheNEU"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="BatStateU on X"
+            >
+              <span class="social-icon" aria-hidden="true">X</span><span>X</span>
+            </a>
+          </nav>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div class="footer-legal">
+          <p>
+            The BatStateU name, BSU Seal, Red Spartans mark, CORE Values graphic, and other
+            institutional materials belong to Batangas State University or their respective rights
+            holders. They are used here solely for educational, non-commercial purposes.
+          </p>
+          <p>
+            This unofficial student project is not affiliated with, endorsed by, or maintained by
+            Batangas State University.
+          </p>
+        </div>
+        <nav class="footer-meta-links" aria-label="Website information">
+          <a href="about-this-website.html">About This Website</a>
+          <a href="https://batstateu.edu.ph/" target="_blank" rel="noopener noreferrer"
+            >Official University Website</a
+          >
+        </nav>
+      </div>
+    </footer>
+  </body>
+</html>
